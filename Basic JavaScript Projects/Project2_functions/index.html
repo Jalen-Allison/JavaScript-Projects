@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="JS/main2.js"></script> 
+</head>
+
+
+<body>
+<!--Assigning the id name and making an event happen when clicked for first function-->
+    <p id="Button_Text"></p>
+
+    <button onclick="My_First_Function()" id="Button_Text">
+        Click me! <!--Text inside button/event starter-->
+        </button>    
+
+        <!--Original text shown that will change once "click me! button is pressed"-->
+    <script>
+        document.getElementById("Button_Text").innerHTML = "Hi everybody!"
+    </script>
+
+
+<!--Assigning the id name and making an event happen when clicked for second function-->
+    <p id="Concatenate"></p>
+    <p id = "Concatenate" onclick = "myFunction()">Click Here!</p> <!--Text that causes event-->
+</body>
+</html>
