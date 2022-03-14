@@ -29,6 +29,7 @@ function myFunction() {
     " manufactured in " + Erik.Vehicle_Year;
 }
 
+//Contructor function
 function Player(Position, Team) {
     this.Player_Position = Position;
     this.Player_Team = Team;
