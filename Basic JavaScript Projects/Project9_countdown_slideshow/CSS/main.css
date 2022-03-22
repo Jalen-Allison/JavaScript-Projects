@@ -2,7 +2,8 @@
 
 /* slideshow container */
 .slideshow-container {
-    max-width: 100px;
+    max-width: 500px;
+    max-height: 500px;
     position: relative;
     margin: auto;
 }
