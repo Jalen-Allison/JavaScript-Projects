@@ -27,6 +27,10 @@ div {
 #frmMenu {
     width: 600px;
     height: 200px;
+    margin: auto;
+    margin-top: 20px;
+    padding: 10px;
+    padding-left: 50px;
     }
 
 #totalPrice {
